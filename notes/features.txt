@@ -1,0 +1,22 @@
+Read/write to existing compendia
+    Module will have compendia setup as default
+    User settings for GM to determine what the default is. Actor tab or compendia, and which compendium if that is chosen.
+    Module will respect the user permissions granted so that if a player is given access to module they will only be able to read/write to compendia they have access to
+Changes to NPC update dynamically
+Drag and drop from actor from either actor tab or compendium to supply stats to start from
+    Have option to start from defaults rather than drag and drop if they want
+        user setting to determine what default stats are.
+        Maybe have choice between stat generation for random stat generation, 4d6 drop lowest etc 
+    Ability to reset all or individual stats to default
+Ability to modify feats, features, spells, etc and save modified "homebrewed" actor/feats/spells etc into appropriate compendia
+    Use existing create new functionality for these 
+Ability to choose which attacks/spells/features are used to calculate the creature's CR 
+New attribute to track for actors, CR adjustment
+    user will be able to set what they believe the appropriate amount of adjustment to CR a feature is. RAW features will be maintained, adjustments will go to "homebrewed"
+    versions of the feature/spell/etc
+    Visible only to GM, or based on permissions at least. So players can't estimate CR of creature by adding up the adjustments from eah feature
+Short cuts
+    Open module
+    "quick save" currently edited actor
+    Export to Json? 
+        not sure that it's needed, if so have user setting to determine where to save the file? Probably default to the module's folder within Foundry's data structure
