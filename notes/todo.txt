@@ -1,0 +1,7 @@
+module.Json
+    update packs entries once created
+    update download link once one is created
+        From foundry site: A public URL that provides a zip archive of the module for the manifest version which points to it. 
+        The archive at this URL is retrieved during the installation or update process. If you are using version control for your 
+        package - it is recommended to manage download archives using the tags and releases features which are supported by most git repositories.
+    
