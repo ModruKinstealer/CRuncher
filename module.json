@@ -1,0 +1,24 @@
+{
+    "id": "CRuncher",
+    "title": "CR Cruncher",
+    "description": "Challenge Rating calculator",
+    "version": "0.0.1",
+    "minimumCoreVersion": "10",
+    "compatibleCoreVersion": "10",
+    "author": "ModruKinstealer",
+    "esmodules": ["scripts/cruncher.js"],
+    "styles": ["./styles/cruncher.css"],
+    "languages": [
+      {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+      }
+    ],
+    "system": "dnd5e",
+    "packs": [],
+    "url": "https://github.com/ModruKinstealer/CRuncher",
+    "manifest": "",
+    "download": "",
+    "readme": "https://github.com/ModruKinstealer/CRuncher/blob/15045df806ffa3de4f9ede212a3d4e8d4401ab00/README.md"
+  }
