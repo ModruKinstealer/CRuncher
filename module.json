@@ -1,5 +1,5 @@
 {
-    "id": "CRuncher",
+    "id": "cruncher",
     "title": "CRuncher",
     "description": "CR cruncher, or CRuncher, is a Challenge Rating calculator for D&D 5e",
     "version": "0.0.1",
@@ -22,7 +22,85 @@
       }
     ],
     "system": "dnd5e",
-    "packs": [],
+    "packs": [
+      {
+        "name": "actor-1-cruncher-actors",
+        "label": "cruncher Actors",
+        "path": "packs/actor-1-cruncher-actors.db",
+        "entity": "Actor",
+        "package": "cruncher"
+      },
+      {
+        "name": "item-1-cruncher-spells",
+        "label": "cruncher Spells",
+        "path": "packs/item-1-cruncher-spells.db",
+        "entity": "Item",
+        "package": "cruncher"
+      },
+      {
+        "name": "item-2-cruncher-items",
+        "label": "cruncher Items",
+        "path": "packs/item-2-cruncher-items.db",
+        "entity": "Item",
+        "package": "cruncher"
+      },
+      {
+        "name": "cards-1-cruncher-cards",
+        "label": "cruncher Cards",
+        "path": "packs/cards-1-cruncher-cards.db",
+        "entity": "Cards",
+        "package": "cruncher"
+      },
+      {
+        "name": "item-3-cruncher-class-features",
+        "label": "cruncher Class Features",
+        "path": "packs/item-3-cruncher-class-features.db",
+        "entity": "Item",
+        "package": "cruncher"
+      },
+      {
+        "name": "item-4-cruncher-monster-features",
+        "label": "cruncher Monster Features",
+        "path": "packs/item-4-cruncher-monster-features.db",
+        "entity": "Item",
+        "package": "cruncher"
+      },
+      {
+        "name": "journalentry-1-cruncher-journal-entries",
+        "label": "cruncher Journal Entries",
+        "path": "packs/journalentry-1-cruncher-journal-entries.db",
+        "entity": "JournalEntry",
+        "package": "cruncher"
+      },
+      {
+        "name": "scene-1-cruncher-scenes",
+        "label": "cruncher Scenes",
+        "path": "packs/scene-1-cruncher-scenes.db",
+        "entity": "Scene",
+        "package": "cruncher"
+      },
+      {
+        "name": "macro-1-cruncher-macros",
+        "label": "cruncher Macros",
+        "path": "packs/macro-1-cruncher-macros.db",
+        "entity": "Macro",
+        "package": "cruncher"
+      },
+      {
+        "name": "rolltable-1-cruncher-roll-tables",
+        "label": "cruncher Roll Tables",
+        "path": "packs/rolltable-1-cruncher-roll-tables.db",
+        "entity": "RollTable",
+        "package": "cruncher"
+      },
+      {
+        "name": "playlist-1-cruncher-playlists",
+        "label": "cruncher Playlists",
+        "path": "packs/playlist-1-cruncher-playlists.db",
+        "entity": "Playlist",
+        "package": "cruncher"
+      }
+    ],
     "url": "https://github.com/ModruKinstealer/CRuncher",
     "manifest": "https://github.com/ModruKinstealer/CRuncher/blob/main/module.json",
     "download": "", 
